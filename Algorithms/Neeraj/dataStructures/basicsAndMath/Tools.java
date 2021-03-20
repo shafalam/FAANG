@@ -10,19 +10,17 @@ public class Tools {
     public static void main(String[] args) {
         System.out.println("************************* Contest ***********************************");
         getContest(
-                "Check if Array Is Sorted and Rotated3\n" +
-                        "Maximum Score From Removing Stones4\n" +
-                        "Largest Merge Of Two Strings5\n" +
-                        "Closest Subsequence Sum"
+                "Check if One String Swap Can Make Strings Equal3\n" +
+                        "Find Center of Star Graph3\n" +
+                        "Maximum Average Pass Ratio5\n" +
+                        "Maximum Score of a Good Subarray"
         );
 //        printCamelCase(
 //                "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold"
 ////                "Product of Array Except Self",
 //        );
         getReplaced(
-                Arrays.asList(
-                        ""
-                ),
+                Arrays.asList(""),
                 Arrays.asList("[", "{"),
                 Arrays.asList("\"", "'"),
                 Arrays.asList("]", "}")
